@@ -1,0 +1,57 @@
+/*font family*/
+
+    @font-face{
+    src: url();
+    font-family:;
+}
+
+/*font family*/
+
+/*Common css Start*/
+
+:root{
+    --popr:"";
+    --bl: ;
+}
+
+body{
+    
+}
+
+/*Common css End*/
+
+/* Make sure body and html take full space */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Container holds everything */
+.video-container {
+  position: relative;
+  height: 176vh;
+  overflow: hidden;
+}
+
+/* Video fills the background */
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Foreground content */
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 20%;
+  transform: translateY(-50%);
+  font-family: sans-serif;
+}
